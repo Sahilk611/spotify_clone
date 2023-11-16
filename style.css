@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@1,500;1,700&family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px; 
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    font-family: 'Varela Round' , sans-serif;
+    background-image: url("/itachi.jpg");
+    background-size: cover;
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#myProgressBar{
+    width: 130vh;
+}
+
+.icon{
+    cursor:pointer;
+    margin: 5px 5px;
+    height: 50px;
+}
+
+
+
+.songItems img{
+    height :auto;
+    margin: 4px 23px;
+    width: 100px;
+    /* background-size: cover; */
+    border-radius: 50px;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+    width: 600px;
+}
+
+.songItems{
+    height:60px;
+    display: flex;
+    background-color: white;
+    width: auto;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between ;
+    align-items: stretch; 
+    border-radius: 34px;
+}
+
+.songItems img{
+    width: 43px;
+    margin: 8px 23px;
+    border-radius: 34px;
+}
+.songListPlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px 0px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.timeStamp{
+    display: flex;
+    align-items: center;
+    margin:5px 23px;
+    color: black;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+#masterPlay{
+    cursor: pointer;
+}
+
+.songInfo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 18vw;
+}
+.song_gif{
+    opacity: 0;
+    background-image: url('/song_gif.gif');
+    background-size: cover;
+    height: 40px;
+    width: 50px;
+    transition:opacity 0.8s ease-in;
+}
